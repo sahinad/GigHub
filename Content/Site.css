@@ -29,7 +29,6 @@ span.field-validation-error {
 }
 
 /* Bootstrap Overrides */
-
 .navbar-inverse {
     background-color: #ff4342;
     border-color: #ff4342;
@@ -98,13 +97,12 @@ h6,
     }
 
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     border-radius: 9px;
 }
 
 /* Page-Level Styles */
-
 .gigs {
     list-style: none;
 }
@@ -119,6 +117,7 @@ h6,
             color: white;
             text-align: center;
             width: 60px;
+            -ms-border-radius: 8px;
             border-radius: 8px;
         }
 
@@ -140,6 +139,7 @@ h6,
             position: absolute;
             top: 0;
             left: 70px;
+            width: auto;
         }
 
             .gigs > li .details .artist {
