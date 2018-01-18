@@ -70,7 +70,7 @@ namespace GigHub.Controllers
                 Heading = "Gigs I'm Attending"
             };
 
-            return View("Gigs", viewModel);
+            return View("Followees", viewModel);
         }
     }
 }
